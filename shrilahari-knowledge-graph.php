@@ -29,6 +29,7 @@ function sh_kg_load_modules() {
     require_once SH_KG_PLUGIN_DIR . 'modules/core/map-picker.php';
     require_once SH_KG_PLUGIN_DIR . 'modules/core/performance.php';\
     require_once SH_KG_PLUGIN_DIR . 'modules/language/multilingual.php';
+    require_once SH_KG_PLUGIN_DIR . 'modules/travel/route-engine.php';
 
 
 
