@@ -346,3 +346,26 @@
     margin: auto;
     padding: 20px;
 }
+/* Devotee Passport */
+.sh-passport-box {
+    margin-top: 20px;
+    background: #e9ffe9;
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #3a8a17;
+}
+.sh-passport-stamps .stamp {
+    font-size: 24px;
+    margin: 3px;
+}
+.sh-login-btn {
+    background: #3a8a17;
+    color:white;
+    padding: 8px 14px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+}
+.sh-login-btn:hover {
+    background:#49a01e;
+}
