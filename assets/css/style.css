@@ -295,3 +295,47 @@
     color: #2f6b00;
 }
 
+/* Ranking Box */
+.sh-rank-box {
+    margin-top: 30px;
+    background: #fff8e6;
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #d68a00;
+}
+
+/* Cards (mobile) */
+.sh-rank-cards {
+    display: none;
+}
+@media(max-width:768px){
+    .sh-rank-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+.sh-rank-card {
+    background: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #f0d59c;
+}
+.rank-num {
+    background: #d68a00;
+    color:#fff;
+    padding:3px 8px;
+    border-radius:4px;
+}
+
+/* Table (desktop) */
+@media(min-width:769px){
+    .sh-rank-table {
+        width:100%;
+        border-collapse: collapse;
+    }
+    .sh-rank-table th, .sh-rank-table td {
+        padding:8px;
+        border:1px solid #e5c88a;
+    }
+}
