@@ -79,4 +79,17 @@
     gap: 14px;
 }
 
-.
+/* Breadcrumb */
+.sh-kg-breadcrumb {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #6a3d00;
+}
+.sh-kg-breadcrumb a {
+    color: #b46600;
+    text-decoration: none;
+}
+.sh-kg-breadcrumb a:hover {
+    text-decoration: underline;
+}
+
