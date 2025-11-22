@@ -186,3 +186,30 @@
     margin: 10px 0;
     font-size: 15px;
 }
+/* Affiliate Hotels Box */
+.sh-affiliate-box {
+    background: #e9f7ff;
+    padding: 18px;
+    border-radius: 10px;
+    margin-top: 30px;
+    border-left: 5px solid #007bb5;
+}
+
+.sh-affiliate-box h3 {
+    color: #005f8f;
+    margin-bottom: 10px;
+}
+
+.sh-aff-btn {
+    display: inline-block;
+    background: #007bb5;
+    color: white !important;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none !important;
+    margin: 8px 0;
+}
+.sh-aff-btn:hover {
+    background: #0090d4;
+}
