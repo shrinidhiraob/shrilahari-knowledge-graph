@@ -24,6 +24,8 @@ function sh_kg_load_modules() {
     require_once SH_KG_PLUGIN_DIR . 'modules/core/metadata.php';
     require_once SH_KG_PLUGIN_DIR . 'modules/temple/metadata-temple.php';
     require_once SH_KG_PLUGIN_DIR . 'modules/temple/temple-ui.php';
+    require_once SH_KG_PLUGIN_DIR . 'modules/frontend/breadcrumbs.php';
+
 
 
     // Schema
