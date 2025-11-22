@@ -226,3 +226,35 @@
     margin-bottom: 10px;
 }
 
+/* Rating Stars */
+.sh-rating-box {
+    margin-top: 25px;
+    background: #fff2cc;
+    padding: 15px;
+    border-left: 4px solid #ffb300;
+    border-radius: 8px;
+}
+.sh-stars {
+    cursor: pointer;
+    font-size: 26px;
+    margin: 6px 0;
+}
+.sh-star {
+    opacity: 0.5;
+    transition: 0.2s;
+}
+.sh-star.active {
+    opacity: 1;
+    transform: scale(1.2);
+}
+#sh_rating_email {
+    margin: 8px 0;
+    padding: 6px;
+}
+#sh_rating_submit {
+    background: #ffb300;
+    border: none;
+    padding: 8px 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
