@@ -42,6 +42,7 @@ function sh_kg_load_modules() {
     require_once SH_KG_PLUGIN_DIR . 'modules/ranking/admin-ranking-settings.php';
     require_once SH_KG_PLUGIN_DIR . 'modules/ranking/ranking-pages.php';
     require_once SH_KG_PLUGIN_DIR . 'modules/devotee/passport-engine.php';
+    require_once SH_KG_PLUGIN_DIR . 'modules/devotee/leaderboard-engine.php';
 
 
 
