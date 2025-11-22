@@ -403,3 +403,21 @@
     margin: 6px 0;
     font-size: 16px;
 }
+/* Badge Icon Display */
+.sh-badge {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 8px;
+}
+.sh-share-badge-btn {
+    background: #ff9800;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    margin-top: 8px;
+}
+.sh-share-badge-btn:hover {
+    background: #e68900;
+}
