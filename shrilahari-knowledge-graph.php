@@ -34,6 +34,7 @@ function sh_kg_load_modules() {
     require_once SH_KG_PLUGIN_DIR . 'modules/commercial/affiliate-engine.php';
     require_once SH_KG_PLUGIN_DIR . 'modules/graph/relationship-engine.php';
     require_once SH_KG_PLUGIN_DIR . 'modules/frontend/map-cluster.php';
+    require_once SH_KG_PLUGIN_DIR . 'modules/reputation/rating-engine.php';
 
 
 
