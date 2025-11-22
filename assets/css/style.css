@@ -1,0 +1,92 @@
+/* Shrilahari Knowledge Graph UI Styles */
+
+/* Explore Nearby Navigation */
+.sh-kg-top-menu {
+    background: #f6f2e8;
+    padding: 10px 15px;
+    margin: 25px 0;
+    font-size: 16px;
+    border-left: 4px solid #d89216;
+}
+
+.sh-kg-top-menu a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #a55c00;
+    margin-right: 8px;
+}
+
+.sh-kg-top-menu a:hover {
+    color: #e07b00;
+    text-decoration: underline;
+}
+
+/* Section Title */
+.sh-kg-section h3 {
+    margin-top: 30px;
+    border-bottom: 2px solid #ffa000;
+    padding-bottom: 6px;
+    font-size: 22px;
+}
+
+/* Card Grid (Temples, Places, Food) */
+.sh-kg-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 16px;
+    margin: 20px 0;
+}
+
+.sh-kg-card {
+    background: #fff9ea;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #e8c77a;
+    text-align: center;
+    transition: 0.25s ease;
+}
+
+.sh-kg-card:hover {
+    transform: scale(1.05);
+    border-color: #d68100;
+}
+
+.sh-kg-card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 8px;
+}
+
+.sh-kg-card h4 {
+    font-size: 16px;
+    color: #833a00;
+    margin: 5px 0;
+}
+
+.sh-kg-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* List View (Stay & Transport) */
+.sh-kg-list {
+    margin: 15px 0;
+    padding-left: 15px;
+}
+
+.sh-kg-list li {
+    margin: 6px 0;
+    font-size: 15px;
+}
+
+.sh-kg-list a {
+    font-weight: bold;
+    color: #7a3f00;
+    text-decoration: none;
+}
+
+.sh-kg-list a:hover {
+    color: #d68100;
+}
