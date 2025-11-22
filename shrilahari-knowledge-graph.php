@@ -32,6 +32,7 @@ function sh_kg_load_modules() {
     require_once SH_KG_PLUGIN_DIR . 'modules/travel/route-engine.php';
     require_once SH_KG_PLUGIN_DIR . 'modules/temple/devotion-engine.php';
     require_once SH_KG_PLUGIN_DIR . 'modules/commercial/affiliate-engine.php';
+    require_once SH_KG_PLUGIN_DIR . 'modules/graph/relationship-engine.php';
 
 
 
