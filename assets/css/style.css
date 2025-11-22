@@ -165,3 +165,24 @@
     padding: 8px;
     font-size: 14px;
 }
+/* Devotion Block */
+.sh-devotion-box {
+    background: #fff2da;
+    padding: 18px;
+    border-radius: 10px;
+    border-left: 5px solid #c47f00;
+    margin-top: 25px;
+}
+.sh-devotion-box h3 {
+    font-size: 20px;
+    color: #8a4b00;
+    margin-bottom: 8px;
+}
+.sh-devotion-box ul {
+    list-style: none;
+    padding: 0;
+}
+.sh-devotion-box li {
+    margin: 10px 0;
+    font-size: 15px;
+}
