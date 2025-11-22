@@ -92,4 +92,16 @@
 .sh-kg-breadcrumb a:hover {
     text-decoration: underline;
 }
+/* FAQ Block */
+.sh-kg-faq ul {
+    list-style: none;
+    padding: 0;
+}
+.sh-kg-faq li {
+    margin: 12px 0;
+    background: #fff8e8;
+    padding: 10px;
+    border-radius: 6px;
+    border-left: 4px solid #cd8f00;
+}
 
