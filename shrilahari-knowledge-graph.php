@@ -38,6 +38,7 @@ function sh_kg_load_modules() {
     require_once SH_KG_PLUGIN_DIR . 'modules/reputation/review-engine.php';
     require_once SH_KG_PLUGIN_DIR . 'modules/reputation/visit-engine.php';
     require_once SH_KG_PLUGIN_DIR . 'modules/ranking/popularity-engine.php';
+    require_once SH_KG_PLUGIN_DIR . 'modules/ranking/ranking-ui.php';
 
 
 
