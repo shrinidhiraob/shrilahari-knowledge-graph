@@ -45,6 +45,7 @@ function sh_kg_load_modules() {
     require_once SH_KG_PLUGIN_DIR . 'modules/devotee/leaderboard-engine.php';
     require_once SH_KG_PLUGIN_DIR . 'modules/devotee/profile-engine.php';
     require_once SH_KG_PLUGIN_DIR . 'modules/devotee/profile-engine.php';
+    require_once SH_KG_PLUGIN_DIR . 'modules/devotee/badge-engine.php';
 
 
 
