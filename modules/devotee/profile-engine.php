@@ -52,6 +52,8 @@ class SH_KG_Profile_Engine {
             <h1>🛕 <?= esc_html($user->display_name) ?></h1>
             <p><strong>Verified Temples Visited:</strong> <?= $count ?></p>
             <p><strong>Devotee Level:</strong> <?= $level ?></p>
+            <p><strong>Badge: </strong> <span class="sh-badge"><?= SH_KG_Badge_Engine::badge_icon($uid); ?></span></p>
+
 
             <?php if ($count > 0): ?>
                 <h3>Visited Temples</h3>
