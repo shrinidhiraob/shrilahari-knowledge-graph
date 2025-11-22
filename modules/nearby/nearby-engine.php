@@ -23,8 +23,11 @@ class SH_KG_Nearby_Engine {
 
         if (!$lat || !$lng) return $content;
 
-        $nearby = $this->fetch_nearby_items($post->ID, $lat, $lng);
-
+       $nearby = apply_filters(
+    'sh_kg_nearby_query',
+    [$this, 'fetch_nearby_items'],
+    $post->ID, $lat, $lng
+);
         if (empty($nearby)) return $content;
 
         ob_start();
