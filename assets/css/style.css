@@ -387,3 +387,19 @@
     color: #444;
     margin-left: 6px;
 }
+/* Devotee Profile UI */
+.sh-profile-wrap {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    border-left: 5px solid #4a8f24;
+}
+.sh-profile-wrap h1 {
+    margin-bottom: 6px;
+}
+.sh-profile-visited li {
+    margin: 6px 0;
+    font-size: 16px;
+}
